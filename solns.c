@@ -91,6 +91,7 @@ int factors(int x, int y[]) {
         r = x % i;
         
      if(r == 0){
+         x = x/i
         y[z] = i;
         z++;
     }
